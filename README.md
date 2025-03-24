@@ -47,14 +47,16 @@ Decrypted Message: Hello, Bob!
 ```
 
 ## Understanding Code in Simple Words
-Imagine a **secret club** where only authorized members can communicate securely.
-- **User Registration:** A new member joins and receives a special secret handshake (private key).
-- **Certificate Issuance:** The club leader gives them an ID card (certificate) to prove they belong.
-- **Key Exchange:** Two members meet and agree on a secret word (shared key) without anyone else knowing.
-- **Message Encryption:** They use this secret word to write coded messages that only they can understand.
-- **Message Decryption:** The recipient uses the same secret word to read the original message.
-- **Revocation:** If a member loses trust, their ID card and secret handshake are taken away, preventing further access.
-- **Checking Status:** Before trusting a message, members check if the sender's ID card is still valid.
+Imagine you and your friend want to exchange secret messages without anyone else listening. But you need a special lock (key) that only you both can use. This program helps you:
+
+- **Get a Personal Lock:** When you register, you get your own secret lock (encryption key).
+- **Verify Your Identity:** Like an ID card, you get a certificate proving you're real.
+- **Share a Common Lock:** You and your friend create a shared lock (key exchange) so you can send secure messages.
+- **Send Secret Messages:** Your messages are put inside a locked box (encryption) before sending.
+- **Unlock Messages Safely:** Your friend uses the same key to unlock and read the message.
+- **Change Locks When Needed:** If someone steals your lock, you throw it away and get a new one (key rotation).
+
+Think of it like sending a diary with a secret code that only you and your friend know, so no one else can read it! 
 
 ## Real-Life Applications
 - **Cybersecurity:** Used for managing cryptographic keys in secure systems.
