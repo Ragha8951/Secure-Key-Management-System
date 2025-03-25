@@ -3,6 +3,18 @@
 ## Live Demo
 [Run on Google Colab](https://colab.research.google.com/drive/1s4BW-S-pWZtZcLzhiS7YzfZTNThACpwH?usp=sharing)
 
+## Understanding Code in Simple Words
+Imagine you and your friend want to exchange secret messages without anyone else listening. But you need a special lock (key) that only you both can use. This program helps you:
+
+- **Get a Personal Lock:** When you register, you get your own secret lock (encryption key).
+- **Verify Your Identity:** Like an ID card, you get a certificate proving you're real.
+- **Share a Common Lock:** You and your friend create a shared lock (key exchange) so you can send secure messages.
+- **Send Secret Messages:** Your messages are put inside a locked box (encryption) before sending.
+- **Unlock Messages Safely:** Your friend uses the same key to unlock and read the message.
+- **Change Locks When Needed:** If someone steals your lock, you throw it away and get a new one (key rotation).
+
+Think of it like sending a diary with a secret code that only you and your friend know, so no one else can read it! 
+
 ## Features
 - Implements a secure key management system with encryption and key exchange.
 - Supports user registration, certificate issuance, and revocation.
@@ -45,18 +57,6 @@ Encrypted Message (hex): 4a7b89d1...
 
 Decrypted Message: Hello, Bob!
 ```
-
-## Understanding Code in Simple Words
-Imagine you and your friend want to exchange secret messages without anyone else listening. But you need a special lock (key) that only you both can use. This program helps you:
-
-- **Get a Personal Lock:** When you register, you get your own secret lock (encryption key).
-- **Verify Your Identity:** Like an ID card, you get a certificate proving you're real.
-- **Share a Common Lock:** You and your friend create a shared lock (key exchange) so you can send secure messages.
-- **Send Secret Messages:** Your messages are put inside a locked box (encryption) before sending.
-- **Unlock Messages Safely:** Your friend uses the same key to unlock and read the message.
-- **Change Locks When Needed:** If someone steals your lock, you throw it away and get a new one (key rotation).
-
-Think of it like sending a diary with a secret code that only you and your friend know, so no one else can read it! 
 
 ## Real-Life Applications
 - **Cybersecurity:** Used for managing cryptographic keys in secure systems.
